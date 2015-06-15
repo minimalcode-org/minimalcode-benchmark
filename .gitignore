@@ -1,0 +1,12 @@
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Specific
+*.csv
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+*.iml
+/.idea
+/target

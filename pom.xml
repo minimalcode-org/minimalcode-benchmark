@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.minimalcode</groupId>
+    <artifactId>minimalcode-benchmark</artifactId>
+    <version>0.6-SNAPSHOT</version>
+    <name>minimalcode-benchmark</name>
+    <packaging>jar</packaging>
+    <description>Benchmarks for all minimalcode modules</description>
+    <url>http://github.com/minimalcode-org/minimalcode-benchmark</url>
+
+    <scm>
+        <url>https://github.com/minimalcode-org/minimalcode-benchmark</url>
+        <connection>scm:git:git@github.com:minimalcode-org/minimalcode-benchmark.git</connection>
+        <developerConnection>scm:git:git@github.com:minimalcode-org/minimalcode-benchmark.git</developerConnection>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.minimalcode</groupId>
+            <artifactId>minimalcode-beans</artifactId>
+            <version>0.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.minimalcode</groupId>
+            <artifactId>minimalcode-convert</artifactId>
+            <version>0.6-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.minimalcode</groupId>
+            <artifactId>minimalcode-reflect</artifactId>
+            <version>0.5</version>
+            <type>test-jar</type>
+        </dependency>
+
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-core</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-generator-annprocess</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>4.1.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-bean</artifactId>
+            <version>3.6.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.azeckoski</groupId>
+            <artifactId>reflectutils</artifactId>
+            <version>0.9.20</version>
+        </dependency>
+    </dependencies>
+</project>
+
